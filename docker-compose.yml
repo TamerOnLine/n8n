@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  n8n:
+    image: n8nio/n8n:1.47.1
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_DEFAULT_USER_NAME=${N8N_USER}
+      - N8N_DEFAULT_USER_PASSWORD=${N8N_PASS}
+    volumes:
+      - ./n8n_data:/home/node/.n8n  
+volumes:
+  n8n_data:
