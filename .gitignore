@@ -7,7 +7,7 @@ node_modules/
 
 # Ignore private and sensitive data directories
 private_data/
-data/
+n8n_data/
 
 # Ignore system and temporary files
 *.log
