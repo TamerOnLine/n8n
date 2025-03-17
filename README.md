@@ -6,6 +6,11 @@
 
 ---
 
+## 🖼 Screenshots
+![n8n](assets/screenshot.png)
+
+---
+
 ## 🏗️ Requirements
 
 - **Docker** installed on your system. [Download Docker](https://docs.docker.com/get-docker/)
